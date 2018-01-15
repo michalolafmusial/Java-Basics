@@ -24,6 +24,7 @@ public class udacity_02 {
         }
     }
 
+
     public static void winter(){
         boolean isSnowing = false;
         boolean isRaining = false;
