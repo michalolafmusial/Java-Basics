@@ -1,12 +1,10 @@
 package com.company;
 
-import com.sun.jdi.connect.Connector;
-
-public class udecity_01_01 {
+public class udecity_01_valiables_data_types {
     public static void main(String[] args){
-    udecity_01_01.DOB();
-    udecity_01_01.dwa();
-    udecity_01_01.farenheit();
+    udecity_01_valiables_data_types.DOB();
+    udecity_01_valiables_data_types.dwa();
+    udecity_01_valiables_data_types.farenheit();
     }
 
 
