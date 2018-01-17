@@ -42,7 +42,7 @@ public class udacity_03_functions {
         return tekst;
     }
 
-    
+
     /**
      * Konwertuje stopnie fahrenheit na celcjusza
      * @param fahr TTemperatura w stopniach fahrenheita

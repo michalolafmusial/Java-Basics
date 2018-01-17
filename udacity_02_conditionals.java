@@ -1,11 +1,11 @@
 package com.company;
 
-public class udacity_02 {
+public class udacity_02_conditionals {
     public static void main(String[] args){
-        udacity_02.video_game();
-        udacity_02.winter();
-        udacity_02.time_of_a_day();
-        udacity_02.holiday();
+        udacity_02_conditionals.video_game();
+        udacity_02_conditionals.winter();
+        udacity_02_conditionals.time_of_a_day();
+        udacity_02_conditionals.holiday();
 
     }
 
