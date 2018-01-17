@@ -40,18 +40,24 @@ public class udacity_03_functions {
         String tekst = "Hello, my name is "+name;
         System.out.println(tekst);
         return tekst;
-    } 
+    }
 
+    
+    /**
+     * Konwertuje stopnie fahrenheit na celcjusza
+     * @param fahr TTemperatura w stopniach fahrenheita
+     * @return temperatura w stopniach celcjusza
+     */
     private static double fahrenheitToCelcius(double fahr) {
-    // Funkcja przyjmuje temperature w stopniach fahrenheita (fahr) i
-        // zwraca w calcjusza (fahrenheitToCelcius)
         return (fahr - 32)*5/9;
     }
 
-    private static void printTemperature (double fahr_degree) {
-        // Funkcja nic nie zwraca, drukuje stopnie w fahranheita (parametr fahr_degree)
-        // i w celcjusza wykorzystujac poprzednia funkcje fahrenheitToCelcius
 
+    /**
+     * Drukuje temperature w stopnaich fahrenheita i celcjusza
+     * @param fahr_degree Temperatura w stopniach fahrenheita
+     */
+    private static void printTemperature (double fahr_degree) {
         System.out.println("F: "+fahr_degree);
         System.out.println("C: "+fahrenheitToCelcius(fahr_degree));
     }
