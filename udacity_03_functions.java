@@ -40,7 +40,7 @@ public class udacity_03_functions {
         String tekst = "Hello, my name is "+name;
         System.out.println(tekst);
         return tekst;
-    }
+    } 
 
     private static double fahrenheitToCelcius(double fahr) {
     // Funkcja przyjmuje temperature w stopniach fahrenheita (fahr) i
